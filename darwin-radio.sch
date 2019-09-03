@@ -464,6 +464,51 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <hole x="2.2" y="-1.27" drill="1.58"/>
 <hole x="2.2" y="-21.59" drill="1.58"/>
 </package>
+<package name="M20-7810645" urn="urn:adsk.eagle:footprint:11839227/2" library_version="37" library_locally_modified="yes">
+<description>Harwin M20-7810645 Pass-Through Female Header</description>
+<hole x="-6.35" y="1.27" drill="1.02"/>
+<hole x="-3.81" y="1.27" drill="1.02"/>
+<hole x="-1.27" y="1.27" drill="1.02"/>
+<hole x="1.27" y="1.27" drill="1.02"/>
+<hole x="3.81" y="1.27" drill="1.02"/>
+<hole x="6.35" y="1.27" drill="1.02"/>
+<hole x="6.35" y="-1.27" drill="1.02"/>
+<hole x="3.81" y="-1.27" drill="1.02"/>
+<hole x="1.27" y="-1.27" drill="1.02"/>
+<hole x="-1.27" y="-1.27" drill="1.02"/>
+<hole x="-3.81" y="-1.27" drill="1.02"/>
+<hole x="-6.35" y="-1.27" drill="1.02"/>
+<hole x="-5.08" y="0" drill="1.8"/>
+<hole x="5.08" y="0" drill="1.8"/>
+<smd name="P$1" x="-6.35" y="-2.91" dx="1.02" dy="1.78" layer="1"/>
+<smd name="P$2" x="-3.81" y="-2.91" dx="1.02" dy="1.78" layer="1"/>
+<smd name="P$3" x="-1.27" y="-2.91" dx="1.02" dy="1.78" layer="1"/>
+<smd name="P$4" x="1.27" y="-2.91" dx="1.02" dy="1.78" layer="1"/>
+<smd name="P$5" x="3.81" y="-2.91" dx="1.02" dy="1.78" layer="1"/>
+<smd name="P$6" x="6.35" y="-2.91" dx="1.02" dy="1.78" layer="1"/>
+<smd name="P$7" x="6.35" y="2.91" dx="1.02" dy="1.78" layer="1"/>
+<smd name="P$8" x="3.81" y="2.91" dx="1.02" dy="1.78" layer="1"/>
+<smd name="P$9" x="1.27" y="2.91" dx="1.02" dy="1.78" layer="1"/>
+<smd name="P$10" x="-1.27" y="2.91" dx="1.02" dy="1.78" layer="1"/>
+<smd name="P$11" x="-3.81" y="2.91" dx="1.02" dy="1.78" layer="1"/>
+<smd name="P$12" x="-6.35" y="2.91" dx="1.02" dy="1.78" layer="1"/>
+</package>
+<package name="12PH" urn="urn:adsk.eagle:footprint:11839228/1" library_version="37" library_locally_modified="yes">
+<smd name="1" x="-2.5" y="6.35" dx="1.27" dy="3" layer="1" rot="R90"/>
+<smd name="2" x="-2.5" y="3.81" dx="1.27" dy="3" layer="1" rot="R90"/>
+<smd name="3" x="-2.2" y="1.27" dx="1.27" dy="3.68" layer="1" rot="R90"/>
+<smd name="4" x="-2.2" y="-1.27" dx="1.27" dy="3.68" layer="1" rot="R90"/>
+<smd name="5" x="-2.5" y="-3.81" dx="1.27" dy="3" layer="1" rot="R90"/>
+<smd name="6" x="-2.5" y="-6.35" dx="1.27" dy="3" layer="1" rot="R90"/>
+<smd name="7" x="2.5" y="-6.35" dx="1.27" dy="3" layer="1" rot="R90"/>
+<smd name="8" x="2.5" y="-3.81" dx="1.27" dy="3" layer="1" rot="R90"/>
+<smd name="9" x="2.2" y="-1.27" dx="1.27" dy="3.68" layer="1" rot="R90"/>
+<smd name="10" x="2.2" y="1.27" dx="1.27" dy="3.68" layer="1" rot="R90"/>
+<smd name="11" x="2.5" y="3.81" dx="1.27" dy="3" layer="1" rot="R90"/>
+<smd name="12" x="2.5" y="6.35" dx="1.27" dy="3" layer="1" rot="R90"/>
+<hole x="0.041" y="5.08" drill="1.58"/>
+<hole x="0.041" y="-5.08" drill="1.58"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT95P280X145-5" urn="urn:adsk.eagle:package:11457415/1" type="model" library_version="17">
@@ -545,6 +590,17 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <package3d name="2337019-1" urn="urn:adsk.eagle:package:11839233/1" type="box" library_version="16">
 <packageinstances>
 <packageinstance name="2337019-1"/>
+</packageinstances>
+</package3d>
+<package3d name="M20-7810645" urn="urn:adsk.eagle:package:11839232/3" type="model" library_version="37" library_locally_modified="yes">
+<description>Harwin M20-7810645 Pass-Through Female Header</description>
+<packageinstances>
+<packageinstance name="M20-7810645"/>
+</packageinstances>
+</package3d>
+<package3d name="12PH" urn="urn:adsk.eagle:package:11839231/2" type="model" library_version="37" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="12PH"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -793,6 +849,25 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <pin name="ANT" x="-7.62" y="-2.54" length="middle"/>
 <pin name="GND" x="12.7" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="12PH" urn="urn:adsk.eagle:symbol:11839189/1" library_version="37" library_locally_modified="yes">
+<pin name="PIN1" x="-15.24" y="5.08" length="middle"/>
+<pin name="PIN2" x="-15.24" y="2.54" length="middle"/>
+<pin name="PIN3" x="-15.24" y="0" length="middle"/>
+<pin name="PIN4" x="-15.24" y="-2.54" length="middle"/>
+<pin name="PIN5" x="-15.24" y="-5.08" length="middle"/>
+<pin name="PIN6" x="-15.24" y="-7.62" length="middle"/>
+<pin name="PIN7" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="PIN8" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="PIN9" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="PIN10" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="PIN11" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="PIN12" x="15.24" y="5.08" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="10.414" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1198,6 +1273,57 @@ Single P-Channel Enhancement Mode Field Effect Transistor</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:11839233/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2X6-HEADERS" urn="urn:adsk.eagle:component:11839253/4" library_version="37" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="12PH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="M20-7810645">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="P$1"/>
+<connect gate="G$1" pin="PIN10" pad="P$10"/>
+<connect gate="G$1" pin="PIN11" pad="P$11"/>
+<connect gate="G$1" pin="PIN12" pad="P$12"/>
+<connect gate="G$1" pin="PIN2" pad="P$2"/>
+<connect gate="G$1" pin="PIN3" pad="P$3"/>
+<connect gate="G$1" pin="PIN4" pad="P$4"/>
+<connect gate="G$1" pin="PIN5" pad="P$5"/>
+<connect gate="G$1" pin="PIN6" pad="P$6"/>
+<connect gate="G$1" pin="PIN7" pad="P$7"/>
+<connect gate="G$1" pin="PIN8" pad="P$8"/>
+<connect gate="G$1" pin="PIN9" pad="P$9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11839232/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DS" package="12PH">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="1"/>
+<connect gate="G$1" pin="PIN10" pad="10"/>
+<connect gate="G$1" pin="PIN11" pad="11"/>
+<connect gate="G$1" pin="PIN12" pad="12"/>
+<connect gate="G$1" pin="PIN2" pad="2"/>
+<connect gate="G$1" pin="PIN3" pad="3"/>
+<connect gate="G$1" pin="PIN4" pad="4"/>
+<connect gate="G$1" pin="PIN5" pad="5"/>
+<connect gate="G$1" pin="PIN6" pad="6"/>
+<connect gate="G$1" pin="PIN7" pad="7"/>
+<connect gate="G$1" pin="PIN8" pad="8"/>
+<connect gate="G$1" pin="PIN9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11839231/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -15019,6 +15145,73 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <text x="-1.5875" y="0.9525" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="-1.5875" y="-1.27" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="FIDUCIAL-1X2.5">
+<circle x="0" y="0" radius="1.1" width="1.2" layer="29"/>
+<circle x="0" y="0" radius="1.1" width="1.2" layer="39"/>
+<circle x="0" y="0" radius="1.1" width="1.2" layer="41"/>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<text x="-0.508" y="-1.016" size="0.4064" layer="25">1mm</text>
+</package>
+<package name="PASS-ROUND">
+<description>&lt;b&gt;FIDUCIAL MARKER&lt;/b&gt;&lt;p&gt;
+round, layers 1 + 16 + 21 + 39 + 49</description>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="1"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="16"/>
+<circle x="0" y="0" radius="2.54" width="0" layer="29"/>
+<circle x="0" y="0" radius="2.54" width="0" layer="30"/>
+<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
+<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="49"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="49"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="49"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="49"/>
+<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="1"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="1"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="1"/>
+<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="1"/>
+<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="16"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="16"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="16"/>
+<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="16"/>
+<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="16" curve="-90" cap="flat"/>
+<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="1" curve="-90" cap="flat"/>
+<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="16" curve="90" cap="flat"/>
+<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="1" curve="90" cap="flat"/>
+</package>
+<package name="FIDUCIAL_0.5MM">
+<wire x1="-0.475" y1="0" x2="0" y2="0.475" width="0.25" layer="29" curve="-90"/>
+<wire x1="0" y1="0.475" x2="0.475" y2="-0.025" width="0.25" layer="29" curve="-90"/>
+<wire x1="0.475" y1="-0.025" x2="0" y2="-0.475" width="0.25" layer="29" curve="-90"/>
+<wire x1="0" y1="-0.475" x2="-0.475" y2="0" width="0.25" layer="29" curve="-90"/>
+<wire x1="-0.475" y1="0" x2="0" y2="0.475" width="0.25" layer="41" curve="-90"/>
+<wire x1="0" y1="0.475" x2="0.475" y2="-0.025" width="0.25" layer="41" curve="-90"/>
+<wire x1="0.475" y1="-0.025" x2="0" y2="-0.475" width="0.25" layer="41" curve="-90"/>
+<wire x1="0" y1="-0.475" x2="-0.475" y2="0" width="0.25" layer="41" curve="-90"/>
+<wire x1="-0.475" y1="0" x2="0" y2="0.475" width="0.25" layer="39" curve="-90"/>
+<wire x1="0" y1="0.475" x2="0.475" y2="-0.025" width="0.25" layer="39" curve="-90"/>
+<wire x1="0.475" y1="-0.025" x2="0" y2="-0.475" width="0.25" layer="39" curve="-90"/>
+<wire x1="0" y1="-0.475" x2="-0.475" y2="0" width="0.25" layer="39" curve="-90"/>
+<smd name="1" x="0" y="0" dx="0.5" dy="0.5" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL_1MM">
+<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="29" curve="-90"/>
+<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="29" curve="-90"/>
+<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="29" curve="-90"/>
+<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="29" curve="-90"/>
+<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="41" curve="-90"/>
+<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="41" curve="-90"/>
+<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="41" curve="-90"/>
+<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="41" curve="-90"/>
+<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="39" curve="-90"/>
+<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="39" curve="-90"/>
+<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="39" curve="-90"/>
+<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="39" curve="-90"/>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FERRITE">
@@ -15030,6 +15223,11 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pin name="P$2" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="-1.27" y="1.905" size="1.27" layer="95">&gt;NAME</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="FIDUCIAL">
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15133,6 +15331,41 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </device>
 </devices>
 </deviceset>
+<deviceset name="FIDUCIAL" prefix="FID">
+<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
+&lt;p&gt;Various fiducial points for machine vision alignment.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2.5" package="FIDUCIAL-1X2.5">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="ROUND" package="PASS-ROUND">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0.5MM" package="FIDUCIAL_0.5MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_1MM" package="FIDUCIAL_1MM">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -15187,6 +15420,13 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100k"/>
 <part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100k"/>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100k"/>
+<part name="U$8" library="Conservify" library_urn="urn:adsk.eagle:library:11839183" deviceset="2X6-HEADERS" device="DS" package3d_urn="urn:adsk.eagle:package:11839231/2"/>
+<part name="FID1" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
+<part name="FID2" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
+<part name="FID3" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
+<part name="FID4" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
+<part name="U$9" library="Conservify" library_urn="urn:adsk.eagle:library:11839183" deviceset="B2B-PH-SM4-TB" device="" package3d_urn="urn:adsk.eagle:package:11839237/2"/>
+<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100k"/>
 </parts>
 <sheets>
 <sheet>
@@ -15362,6 +15602,20 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <attribute name="NAME" x="210.82" y="18.796" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="210.82" y="21.844" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
+<instance part="U$8" gate="G$1" x="467.36" y="33.02" smashed="yes">
+<attribute name="NAME" x="457.2" y="43.434" size="1.27" layer="95"/>
+</instance>
+<instance part="FID1" gate="G$1" x="464.82" y="-30.48" smashed="yes"/>
+<instance part="FID2" gate="G$1" x="464.82" y="-35.56" smashed="yes"/>
+<instance part="FID3" gate="G$1" x="464.82" y="-40.64" smashed="yes"/>
+<instance part="FID4" gate="G$1" x="464.82" y="-45.72" smashed="yes"/>
+<instance part="U$9" gate="G$1" x="317.5" y="38.1" smashed="yes">
+<attribute name="NAME" x="312.674" y="43.942" size="1.778" layer="94"/>
+</instance>
+<instance part="R8" gate="G$1" x="325.12" y="27.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="325.12" y="26.416" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="325.12" y="29.464" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15377,6 +15631,11 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="269.24" y1="66.04" x2="256.54" y2="66.04" width="0.1524" layer="91"/>
 <label x="259.08" y="66.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PIN9"/>
+<wire x1="482.6" y1="30.48" x2="495.3" y2="30.48" width="0.1524" layer="91"/>
+<label x="492.76" y="30.48" size="1.778" layer="95" align="bottom-right"/>
+</segment>
 </net>
 <net name="MOD_SCL" class="0">
 <segment>
@@ -15388,6 +15647,11 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J3" gate="G$1" pin="PIN6"/>
 <wire x1="269.24" y1="68.58" x2="256.54" y2="68.58" width="0.1524" layer="91"/>
 <label x="259.08" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PIN8"/>
+<wire x1="482.6" y1="27.94" x2="495.3" y2="27.94" width="0.1524" layer="91"/>
+<label x="492.76" y="27.94" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="RAD_SDA" class="0">
@@ -15523,6 +15787,11 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="269.24" y1="63.5" x2="256.54" y2="63.5" width="0.1524" layer="91"/>
 <label x="259.08" y="63.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PIN11"/>
+<wire x1="482.6" y1="35.56" x2="495.3" y2="35.56" width="0.1524" layer="91"/>
+<label x="492.76" y="35.56" size="1.778" layer="95" align="bottom-right"/>
+</segment>
 </net>
 <net name="MOD_SCK" class="0">
 <segment>
@@ -15535,6 +15804,11 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="269.24" y1="60.96" x2="256.54" y2="60.96" width="0.1524" layer="91"/>
 <label x="259.08" y="60.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PIN12"/>
+<wire x1="482.6" y1="38.1" x2="495.3" y2="38.1" width="0.1524" layer="91"/>
+<label x="492.76" y="38.1" size="1.778" layer="95" align="bottom-right"/>
+</segment>
 </net>
 <net name="MOD_MISO" class="0">
 <segment>
@@ -15546,6 +15820,11 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J3" gate="G$1" pin="PIN10"/>
 <wire x1="269.24" y1="58.42" x2="256.54" y2="58.42" width="0.1524" layer="91"/>
 <label x="259.08" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PIN10"/>
+<wire x1="482.6" y1="33.02" x2="495.3" y2="33.02" width="0.1524" layer="91"/>
+<label x="492.76" y="33.02" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="MOD_G0" class="0">
@@ -15565,7 +15844,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <label x="172.72" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MOD_G1" class="0">
+<net name="EEPROM_PROT" class="0">
 <segment>
 <pinref part="LOWER1" gate="G$1" pin="PIN2"/>
 <wire x1="193.04" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
@@ -15575,6 +15854,11 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J3" gate="G$1" pin="PIN1"/>
 <wire x1="269.24" y1="81.28" x2="256.54" y2="81.28" width="0.1524" layer="91"/>
 <label x="259.08" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PIN5"/>
+<wire x1="452.12" y1="27.94" x2="439.42" y2="27.94" width="0.1524" layer="91"/>
+<label x="441.96" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOD_G2" class="0">
@@ -15588,8 +15872,13 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="269.24" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 <label x="259.08" y="78.74" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PIN6"/>
+<wire x1="452.12" y1="25.4" x2="439.42" y2="25.4" width="0.1524" layer="91"/>
+<label x="441.96" y="25.4" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="MOD_G3" class="0">
+<net name="HOTSWAP_INT" class="0">
 <segment>
 <pinref part="LOWER1" gate="G$1" pin="PIN3"/>
 <wire x1="193.04" y1="119.38" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
@@ -15601,7 +15890,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <label x="259.08" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MOD_G4" class="0">
+<net name="XBTN" class="0">
 <segment>
 <pinref part="LOWER1" gate="G$1" pin="PIN17"/>
 <wire x1="223.52" y1="116.84" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
@@ -15611,6 +15900,14 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J3" gate="G$1" pin="PIN4"/>
 <wire x1="269.24" y1="73.66" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
 <label x="259.08" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="P$2"/>
+<wire x1="320.04" y1="33.02" x2="320.04" y2="27.94" width="0.1524" layer="91"/>
+<label x="322.58" y="20.32" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="320.04" y1="27.94" x2="320.04" y2="17.78" width="0.1524" layer="91"/>
+<junction x="320.04" y="27.94"/>
 </segment>
 </net>
 <net name="MOD_G5" class="0">
@@ -15625,7 +15922,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <label x="259.08" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MOD_G6" class="0">
+<net name="GPS_ENABLE" class="0">
 <segment>
 <pinref part="LOWER1" gate="G$1" pin="PIN16"/>
 <wire x1="223.52" y1="114.3" x2="236.22" y2="114.3" width="0.1524" layer="91"/>
@@ -15640,7 +15937,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <junction x="325.12" y="-76.2"/>
 </segment>
 </net>
-<net name="MOD_G7" class="0">
+<net name="WIFI_ENABLE" class="0">
 <segment>
 <pinref part="LOWER1" gate="G$1" pin="PIN5"/>
 <wire x1="193.04" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
@@ -15841,6 +16138,16 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="414.02" y1="-48.26" x2="424.18" y2="-48.26" width="0.1524" layer="91"/>
 <label x="419.1" y="-48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PIN2"/>
+<wire x1="452.12" y1="35.56" x2="439.42" y2="35.56" width="0.1524" layer="91"/>
+<label x="441.96" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="P$1"/>
+<wire x1="314.96" y1="33.02" x2="314.96" y2="20.32" width="0.1524" layer="91"/>
+<label x="309.88" y="30.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -15882,6 +16189,16 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="205.74" y1="20.32" x2="205.74" y2="25.4" width="0.1524" layer="91"/>
 <junction x="205.74" y="25.4"/>
 <label x="193.04" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PIN3"/>
+<wire x1="452.12" y1="33.02" x2="439.42" y2="33.02" width="0.1524" layer="91"/>
+<label x="441.96" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="330.2" y1="27.94" x2="335.28" y2="27.94" width="0.1524" layer="91"/>
+<label x="330.2" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -16003,11 +16320,16 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <label x="251.46" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="X1" class="0">
+<net name="BACKPACK_ENABLE" class="0">
 <segment>
 <pinref part="UPPER1" gate="G$1" pin="PIN3"/>
 <wire x1="269.24" y1="119.38" x2="248.92" y2="119.38" width="0.1524" layer="91"/>
 <label x="251.46" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PIN4"/>
+<wire x1="452.12" y1="30.48" x2="439.42" y2="30.48" width="0.1524" layer="91"/>
+<label x="441.96" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="X2" class="0">
@@ -16306,6 +16628,11 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="353.06" y1="121.92" x2="342.9" y2="121.92" width="0.1524" layer="91"/>
 <label x="342.9" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PIN1"/>
+<wire x1="452.12" y1="38.1" x2="439.42" y2="38.1" width="0.1524" layer="91"/>
+<label x="441.96" y="38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SOL+" class="0">
 <segment>
@@ -16343,7 +16670,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <label x="317.5" y="104.14" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="MOD_G12" class="0">
+<net name="CHARGING" class="0">
 <segment>
 <pinref part="UPPER1" gate="G$1" pin="PIN9"/>
 <wire x1="269.24" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
@@ -16397,6 +16724,13 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="325.12" y1="-73.66" x2="325.12" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="FB1" gate="G$1" pin="P$2"/>
 <wire x1="325.12" y1="-68.58" x2="320.04" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PIN7" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="PIN7"/>
+<wire x1="482.6" y1="25.4" x2="495.3" y2="25.4" width="0.1524" layer="91"/>
+<label x="492.76" y="25.4" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>
